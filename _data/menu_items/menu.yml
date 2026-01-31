@@ -1,14 +1,14 @@
-docs_list_title: ACME Documentation
+docs_list_title: Video World Models
 docs:
 
   - title: Home
     url: /
 
-  - title: Publications
-    url: /publications.html
+#  - title: Publications
+#    url: /publications.html
 
-  - title: Projects
-    url: /projects-page.html
+#  - title: Projects
+#    url: /projects-page.html
 
-  - title: Blog
-    url: /blog
+#  - title: Blog
+#    url: /blog

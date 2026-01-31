@@ -17,17 +17,27 @@
 
       {%- include about.html -%}
 
+      {%- comment -%}
+      Sections below are commented out for org site - uncomment when needed
+      {%- endcomment -%}
+
+      {%- comment -%}
       {%- if site.data.education.size > 0 -%}
       {%- include education.html -%}
       {%- endif -%}
+      {%- endcomment -%}
 
+      {%- comment -%}
       {%- if site.data.experience.size > 0 -%}
         {%- include experience.html -%}
       {%- endif -%}
+      {%- endcomment -%}
 
+      {%- comment -%}
       {%- if site.data.projects.size > 0 -%}
       {%- include projects.html -%}
       {%- endif -%}
+      {%- endcomment -%}
 
 <!--      {%- if site.more_content -%}-->
 <!--        {%- include more.html -%}-->

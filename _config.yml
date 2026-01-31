@@ -18,15 +18,15 @@ include:
 
 # --------------------------------------------------------------------------------------
 
-repository: https://github.com/soran-ghaderi/soran-ghaderi.github.io
+repository: https://github.com/video-world-models/video-world-models.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
-# Personal info
-name: Soran Ghaderi
-title: Looking for PhD Opportunities - MSc in AI at the University of Essex
-email: soran.gdr.cs@gmail.com
+# Organization info
+name: Video World Models
+title: ""
+# email: ""  # Add org email when available
 #phone: Your phone number (optional)
-#website: https://soran-ghaderi.github.io
+# website: https://soran-ghaderi.github.io
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -94,29 +94,29 @@ palette:
 # Social links
 twitter_username: soranghadri
 github_username: soran-ghaderi
-#medium_username: soran-ghaderi
-#stackoverflow_username: "00000001"
-#dribbble_username: jekyll
-#facebook_username: jekyll
+#medium_username: 
+#stackoverflow_username: 
+#dribbble_username: 
+#facebook_username:
 #flickr_username: jekyll
 #instagram_username: jekyll
-linkedin_username: soran-ghaderi
+#linkedin_username: 
 #xing_username: jekyll
 #pinterest_username: jekyll
 #youtube_username: jekyll
 # googleplus_username: +jekyll
-orcid_username: 0009-0004-6564-4517
-#googlescholar_username: -2N2iKcAAAAJ
+#orcid_username: 
+#googlescholar_username: 
 
 
 # Additional icon links
-additional_links:
-  - title: Google Scholar
-    icon: fab fa-google-scholar
-    url: https://scholar.google.com/citations?user=-2N2iKcAAAAJ&hl=en&authuser=5
-  - title: ResearchGate
-    icon: fab fa-researchgate
-    url: https://www.researchgate.net/profile/Soran-Ghaderi
+# additional_links:
+#   - title: Discord
+#     icon: fab fa-discord
+#     url: https://discord.gg/your-invite
+#   - title: Hugging Face
+#     icon: fas fa-robot
+#     url: https://huggingface.co/video-world-models
   # - title: kaggle
     # icon: fab fa-kaggle
     # url: https://www.kaggle.com/soranghadri
@@ -133,101 +133,27 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpeg #Directory of profile image (eg. images/profile.jpg)
+# about_title: About (Use this to override about section title)
+about_profile_image: # images/vwm-logo.png # Add organization logo
 about_content: | # this will include new lines to allow paragraphs
   
   <section>
-    <h3>About</h3>
-  <p>
-  Research intern at <a href="https://blender.cs.illinois.edu/">UIUC Blender Lab</a> working on energy-based models. 
-  MSc AI (Distinction) from <a href="https://www.essex.ac.uk/">Essex</a>, supervised by 
-  <a href="https://www.essex.ac.uk/people/CITIL35902/Luca Citi">Prof. Luca Citi</a>.
+  <p style="font-size: 1.05em;">
+  Video world models are transforming how AI systems understand physics, causality, and temporal dynamics.
+  </p>
+  <p style="color: var(--text-muted);">
+  <span class="badge badge-soon">Coming Soon</span>
   </p>
   </section>
   
   <section>
-    <h3>Research Interests</h3>
-  <p>My ultimate objective is to study the cognitive mechanisms underlying intelligence and develop embodied agents able to reason and interact with the real world.
-  </p>
-  <p>
-  I work on differentiable approaches for iterative reasoning and planning in uncertain environments. 
-  Building more capable, efficient, and generalizable AI systems, particularly at the intersection of deep learning, 
-  statistical mechanics, probabilistic modeling, and geometric methods.In a wider context, I am interested in developing a network of specialized networks such as memory and rapid learning, goal-driven planning, spatial reasoning, and error detection and conflict monitoring that operate collaboratively to consistently make good decisions within a complex environment. 
-  </p>
-  
-  <details>
-  <summary><strong>▸ Key areas <span class="badge badge-soon">Click to expand</span></strong></summary>
-  <br>
-  <ul>
-    <li><strong>Generative Modeling</strong>: Energy-Based Models, Diffusion/Score-Based Models, Normalizing Flows, Optimal Transport, Consistency Models. Mathematical tools: ODEs, PDEs (Fokker-Planck), SDEs, Itô Calculus, OT theory. Also language models and autoregressive generation.</li>
-    <li><strong>Generalisation, Reasoning & Planning</strong>: Robust OOD performance for complex decision-making.</li>
-    <li><strong>Geometric & Mathematical Foundations</strong>: Differential geometry (Riemannian manifolds), metric learning, Hamiltonian & Lagrangian formulations for efficient learning algorithms.</li>
-    <li><strong>Efficient Architectures</strong>: Transformers & attention mechanisms.</li>
-    <li><strong>MPC, RL, Agents & Embodied Intelligence</strong></li>
-    <li><strong>Applications</strong>: World Models, robotics, AI for science, LLMs.</li>
-  </ul>
-  </details>
-  
-  <p style="margin-top: 1em;">
-  <strong>Current Focus</strong>: Unifying diffusion, flow-based, and energy-based models through statistical mechanics and differential geometry, toward agents capable of fast generation, reasoning (as optimisation), and robust planning under uncertainty.
-  </p>
-  
-  <h4>Research Highlights</h4>
-  <ul>
-      <li><strong>Reasoning & Planning</strong>: Agents that reason, plan, and adapt to novel environments</li>
-      <li><strong>Representation Learning</strong>: Learning the geometry of parameters and data distributions</li>
-      <li><strong>OOD Generalisation</strong>: Robust behaviour beyond training distribution</li>
-      <li><strong>Embodied Intelligence</strong>: Systems that learn through interaction with the world</li>
-  </ul>
-  </section>
-  
-  <section>
-    <h3>Writing</h3>
+    <h3>Reading</h3>
     <p>
-      <span class="badge badge-new badge-pulse">New</span>
-      <a href="/blog/video-world-models/" style="font-weight: 500;">Video World Models</a> — 
-      <span style="color: var(--text-muted);">From slow bidirectional diffusion to real-time autoregressive world simulators. 
-      Causality, self-forcing, attention sinks, and the path to interactive video generation.</span>
+      <a href="https://soran-ghaderi.github.io/blog/video-world-models/" style="font-weight: 500;">Video World Models: From Diffusion to Real-time Generation</a>
+      <br>
+      <span style="color: var(--text-muted); font-size: 0.9em;">A technical overview of the space.</span>
     </p>
   </section>
-  
-  <section>
-    <h3>News</h3>
-    <ul>
-        <li>Started Research Collaboration with UIUC Blender Lab - Jul. 2025</li>
-        <li>MSc defended at Essex (<a href="https://soran-ghaderi.github.io/nir/">NIR thesis</a>) - Oct. 2024</li>
-    </ul>
-  </section>
-  
-  <section>
-    <h3>Awards</h3>
-    <ul>
-        <li>Full scholarship for MSc AI, University of Essex</li>
-    </ul>
-  </section>
-  
-#        I am a Master's student pursuing a specialization in Artificial Intelligence at the University of Essex.
-#      With over three years of hands-on experience, my passion lies in the realm of deep learning and autonomous agents.
-#
-#      I am eager to explore the potential of attention mechanisms in enhancing the performance of multimodal models in
-#      representation learning, reasoning, and zero-shot learning within uncertain environments.
-#
-#      Parallel to this, I have actively engaged in freelance work and collaborated with research teams, and have made
-#      contributions to the open-source community.
-
-#  ### Academic accomplishments<br>
-#
-#
-#
-#  <br>
-
-#  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-#    - Lists
-#    - Tables
-#    - <a href="google.com">Links</a>
-#    - Images
-
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
 
@@ -235,9 +161,9 @@ about_content: | # this will include new lines to allow paragraphs
 # experience_title: Experience #(Use this to override about experience section title)
 
 # Education Section
-education_title: Education #(Use this to override about education section title)
-publication_title: Publications
-skills_title: Skills
+# education_title: Education #(Use this to override about education section title)
+# publication_title: Publications
+# skills_title: Skills
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
 
